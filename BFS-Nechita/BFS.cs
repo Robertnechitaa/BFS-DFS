@@ -41,7 +41,7 @@ namespace BFS_Nechita
                 int nodoCorrente = coda[0];
                 coda.RemoveAt( 0 );
 
-                Console.Write( nodoCorrente + " " );
+                Console.WriteLine( nodoCorrente + " " );
 
                 foreach ( int prossimoNodo in nodi[nodoCorrente] )
                 {
